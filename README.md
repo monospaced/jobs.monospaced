@@ -1,4 +1,4 @@
-Work Anywhere
+Monospaced jobs
 =============
 
 Experiment, displays jobs containing the keyword ‘anywhere’ from some popular web job boards.
