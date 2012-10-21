@@ -23,6 +23,9 @@
 	$result = curl_exec($ch);
 	curl_close($ch);
 	$result = str_replace('"date"', '"pubDate"', $result);
-	file_put_contents('rss.json',$result);
-	copy('rss.json','../cache/rss.json');
+  $data = json_decode($result);
+  if ($data->query->results != null) {
+	 file_put_contents('rss.json',$result);
+	 copy('rss.json','../cache/rss.json');
+  }
 ?>
