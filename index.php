@@ -56,7 +56,7 @@
 
 			#container {
 			  width: 568px;
-			  max-width: 90.625%;
+			  max-width: 93.75%;
 			  margin: 0 auto;
 			  padding: 24px 0 12px;
 			}
@@ -85,8 +85,17 @@
 			}
 
 			div[role="banner"] {
-			  margin: 0 0 24px 24px;
+				position: fixed;
+				top: 0;
+				right: 0;
+				left: 0;
 			  color: #15010d;
+			  background: #fff;
+			  background: rgba(255, 255, 255, 0.9);
+			}
+
+			ul[role="main"] {
+				padding-top: 48px;
 			}
 
 			div[role="content-info"] {
@@ -100,10 +109,12 @@
 			}
 
 			h1 {
-			  margin: 0 0 0 -1px;
-			  padding: 6px 0;
-			  font-size: 48px;
+			  margin: 0 auto;
+			  padding: 6px 0 6px 24px;
+			  font-size: 36px;
 			  line-height: 1;
+			  width: 568px;
+			  max-width: 93.75%;
 			}
 
 			h1 strong {
@@ -145,6 +156,7 @@
 			.media .img img {
 			  display: block;
 			  margin: 2px;
+			  padding: 3px 3px 1px 1px;
 			}
 
 			.error {
@@ -157,7 +169,6 @@
 		<div id="container">
 			<div role="banner">
 				<h1>Work <strong>Anywhere</strong></h1>
-				<p>Web jobs, wherever you are…</p>
 			</div>
 			<ul role="main">
 			<?php
