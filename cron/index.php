@@ -10,7 +10,13 @@
   'http://feeds.feedburner.com/smjobs',
   'http://feeds.feedburner.com/python/pyjobo?format=xml',
   'http://feeds.feedburner.com/alldevjobs?format=xml',
-  'http://jobs.webdirections.org/rss/all/jobs.rss'
+  'http://jobs.webdirections.org/rss/all/jobs.rss',
+  'https://weworkremotely.com/categories/1/jobs.rss',
+  'https://weworkremotely.com/categories/2/jobs.rss',
+  'https://weworkremotely.com/categories/3/jobs.rss',
+  'https://weworkremotely.com/categories/4/jobs.rss',
+  'https://weworkremotely.com/categories/5/jobs.rss',
+  'https://weworkremotely.com/categories/6/jobs.rss'
 	);
 	$url ='http://query.yahooapis.com/v1/public/yql?q=';
 	$query = 'select title,description,link,pubDate,date from rss where url in("'.implode('","',$anywhereTitle).'") and title like "%Anywhere%";';

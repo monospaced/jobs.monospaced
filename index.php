@@ -210,7 +210,7 @@
 			</ul>
 			<div role="content-info">
 				<p>An experiment by <a href="http://monospaced.github.com/">Monospaced Labs</a>, displays jobs containing the keyword ‘anywhere’ from the following job boards…</p>
-				<p><a href="http://jobs.37signals.com">37signals</a>, <a href="http://www.alldevjobs.com">AllDevJobs</a>, <a href="http://www.authenticjobs.com">Authentic&nbsp;Jobs</a>, <!--Craiglist&nbsp;, --><a href="http://jobs.freelanceswitch.com">Freelance&nbsp;Switch</a>, <!--GitHub&nbsp;Jobs&nbsp;, --><a href="http://jobs.jsninja.com">Javascript&nbsp;Ninja</a>, <a href="http://jobs.metafilter.com/">MeFi&nbsp;Jobs</a>, <a href="http://www.python.org/community/jobs">Python&nbsp;Job&nbsp;Board</a>, <a href="http://jobs.smashingmagazine.com">Smashing&nbsp;Jobs</a>, <a href="http://jobs.webdirections.org">Web&nbsp;Directions&nbsp;Jobs</a></p>
+				<p><a href="http://jobs.37signals.com">37signals</a>, <a href="http://www.alldevjobs.com">AllDevJobs</a>, <a href="http://www.authenticjobs.com">Authentic&nbsp;Jobs</a>, <!--Craiglist&nbsp;, --><a href="http://jobs.freelanceswitch.com">Freelance&nbsp;Switch</a>, <!--GitHub&nbsp;Jobs&nbsp;, --><a href="http://jobs.jsninja.com">Javascript&nbsp;Ninja</a>, <a href="http://jobs.metafilter.com/">MeFi&nbsp;Jobs</a>, <a href="http://www.python.org/community/jobs">Python&nbsp;Job&nbsp;Board</a>, <a href="http://jobs.smashingmagazine.com">Smashing&nbsp;Jobs</a>, <a href="http://jobs.webdirections.org">Web&nbsp;Directions&nbsp;Jobs</a>, <a href="http://weworkremotely.com">We Work Remotely</a></p>
 				<p><a href="https://github.com/monospaced/jobs.monospaced">github.com/monospaced/jobs.monospaced</a></p>
 			</div>
 		</div>
