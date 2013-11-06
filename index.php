@@ -1,6 +1,6 @@
 <?php
 	date_default_timezone_set('Europe/London');
-	$url ='http://monospaced.co.uk/labs/yql/rss/cache/rss.json';
+	$url ='http://jobs.monospaced.co.uk/cache/rss.json';
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
