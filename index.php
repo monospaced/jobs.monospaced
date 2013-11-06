@@ -62,7 +62,7 @@
 			}
 
 			#container {
-			  width: 480px;
+			  width: 568px;
 			  max-width: 90.625%;
 			  margin: 0 auto;
 			  padding: 24px 0 12px;
