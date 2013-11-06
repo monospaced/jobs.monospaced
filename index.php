@@ -10,7 +10,11 @@
 		$results = $data->query->results->results;
 		$result = array_merge($results[0]->item,$results[1]->item);
 		foreach ($result as $key => $row) {
-	    $orderByDate[$key]  = strtotime($row->pubDate);
+			$date = $row->pubDate;
+			if (!is_string($date)) {
+				$date = $row->pubDate->content;
+			}
+	    $orderByDate[$key] = strtotime($date);
 		}
 		array_multisort($orderByDate, SORT_DESC, $result);
 	}
@@ -175,6 +179,9 @@
 					$title = $item->title;
 					$link = $item->link;
 					$date = $item->pubDate;
+					if (!is_string($date)) {
+						$date = $item->pubDate->content;
+					}
 					$title = str_replace('Anywhere', '<em class="anywhere">Anywhere</em>', $title);
 					$url = explode('/',$link);
 					$src = $url[2];
