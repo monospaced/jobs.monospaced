@@ -1,6 +1,6 @@
 <?php
 	date_default_timezone_set('Europe/London');
-	$url ='http://jobs.monospaced.co.uk/cache/rss.json';
+	$url ='http://jobs.monospaced.com/cache/rss.json';
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -21,7 +21,7 @@
 		<title>Monospaced Jobs</title>
 		<meta name="description" content="Apply for web jobs, wherever you are…">
 		<meta name="viewport" content="width=device-width">
-		<link rel="icon" href="http://monospaced.co.uk/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="http://monospaced.com/favicon.ico" type="image/x-icon">
 		<style>article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
 
 			@font-face {
@@ -51,7 +51,6 @@
 			}
 
 			body {
-			  text-shadow: 0 1px 0 #fff;
 			  font-family: Museo300Regular, sans-serif;
 			  line-height: 1.5;
 			  color: #15010d;
@@ -63,11 +62,6 @@
 			  max-width: 90.625%;
 			  margin: 0 auto;
 			  padding: 24px 0 12px;
-			  background: -webkit-linear-gradient(left, #f5f4f1, #fff 50%, #f5f4f1);
-			  background:    -moz-linear-gradient(left, #f5f4f1, #fff 50%, #f5f4f1);
-			  background:     -ms-linear-gradient(left, #f5f4f1, #fff 50%, #f5f4f1);
-			  background:      -o-linear-gradient(left, #f5f4f1, #fff 50%, #f5f4f1);
-			  background:         linear-gradient(left, #f5f4f1, #fff 50%, #f5f4f1);
 			}
 
 			a {
@@ -160,8 +154,6 @@
 			  display: block;
 			  margin: 2px;
 			  border: 2px solid #fff;
-			  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-			          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 			}
 
 			.error {
