@@ -199,7 +199,7 @@
 						    break;
 						}
 					}
-					print '<li class="media"><a class="img" href="http://'.$src.'"><img src="http://www.google.com/s2/u/0/favicons?domain='.$src.'" alt="'.$src.'" width="16" height="16"></a><div class="bd"><h2><a href="'.$link.'">'.$title.'</a> </h2><p class="date">'.$date.'</p></div></li>';
+					print '<li class="media"><a class="img" href="http://'.$src.'"><img src="http://www.google.com/s2/favicons?domain='.$src.'" alt="'.$src.'" width="16" height="16"></a><div class="bd"><h2><a href="'.$link.'">'.$title.'</a> </h2><p class="date">'.$date.'</p></div></li>';
 				}
 			} else {
 				print '<li class="error">Something went wrong, please try again later.</li>';
