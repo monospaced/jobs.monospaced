@@ -127,7 +127,7 @@
 				  max-height: none;
 				}
 				#container {
-					padding: 24px 24px 12px 12px;
+					padding: 24px 24px 12px 0;
 				  width: 66%;
 				  margin-left: 33%;
 				  float: left;
