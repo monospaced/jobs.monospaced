@@ -92,22 +92,6 @@
 			  max-width: 33em;
 			}
 
-			@media (min-width: 528px) {
-				h1 {
-				  position: fixed;
-				  margin: 0;
-				  width: 33%;
-				  padding: 24px;
-				  max-height: none;
-				}
-				#container {
-					padding: 24px 24px 12px;
-				  width: 66%;
-				  margin-left: 33%;
-				  float: left;
-				}
-			}
-
 			h2 {
 			  margin: 0;
 			  font-size: 21px;
@@ -132,6 +116,25 @@
 			img {
 				max-width: 100%;
 				max-height: 100%;
+			}
+
+			@media (min-width: 528px) {
+				h1 {
+				  position: fixed;
+				  margin: 0;
+				  width: 33%;
+				  padding: 24px;
+				  max-height: none;
+				}
+				#container {
+					padding: 24px 24px 12px 12px;
+				  width: 66%;
+				  margin-left: 33%;
+				  float: left;
+				}
+				img {
+					max-height: 90%;
+				}
 			}
 
 			.media,
