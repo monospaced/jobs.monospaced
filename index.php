@@ -8,7 +8,15 @@
 	curl_close($ch);
 	if ($data->query->results != null) {
 		$results = $data->query->results->results;
-		$result = array_merge($results[0]->item,$results[1]->item);
+		$result0 = $results[0]->item;
+		$result1 = $results[1]->item;
+		if (!is_array($result0)) {
+			$result0 = array($result0);
+		}
+		if (!is_array($result1)) {
+			$result1 = array($result1);
+		}
+		$result = array_merge($result0, $result1);
 		foreach ($result as $key => $row) {
 			$date = $row->pubDate;
 			if (!is_string($date)) {
